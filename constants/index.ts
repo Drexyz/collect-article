@@ -15,8 +15,8 @@ export const ARTICLE_DATA = [
     articleUrl: "https://onepiecechapters.com/",
   },
   {
-    title : "'The sky is opening up': NASA's Webb Telescope captures jaw-dropping views of the cosmos",
-    imageUrl: "https://pbs.twimg.com/media/FXcDWFoUYAAnWyZ?format=jpg&name=medium",
-    articleUrl: "https://www.nationalgeographic.com/magazine/article/nasas-webb-telescope-captures-jaw-dropping-views-of-the-cosmos",
+    title : "'Intersection Observer on React",
+    imageUrl: "https://i.ytimg.com/vi/2IbRtjez6ag/maxresdefault.jpg",
+    articleUrl: "https://dev.to/producthackers/intersection-observer-using-react-49ko",
   },
 ]

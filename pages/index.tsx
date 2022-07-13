@@ -31,8 +31,8 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <div className={`${style.container} ${showDiv}`} ref={divRef}>
-        <ArticleSection data={ARTICLE_DATA} sectionStyle={style.articles} />
+      <div className={`p-14 mx-auto min-h-screen transition duration-1000 ease-in-out ${showDiv}`} ref={divRef}>
+        <ArticleSection data={ARTICLE_DATA} sectionStyle="grid grid-cols-3 gap-4 justify-items-center" />
       </div>
     </>
   )

@@ -1,13 +1,12 @@
 import type { NextPage } from 'next'
 import ArticleSection from '../components/organism/articles-section'
-import { styles } from '../styles/homeStyles'
 import { ARTICLE_DATA } from '../constants'
 
 const Home: NextPage = () => {
   
   return (
-    <div className={styles.container}>
-      <ArticleSection data={ARTICLE_DATA} sectionStyle={styles.articleSection} />
+    <div className="p-14 mx-auto">
+      <ArticleSection data={ARTICLE_DATA} sectionStyle="grid grid-cols-3 gap-4 justify-items-center" />
     </div>
   )
 }

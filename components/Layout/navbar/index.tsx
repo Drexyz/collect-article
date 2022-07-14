@@ -12,6 +12,7 @@ const Navbar: FC = () => {
         width={40}
         height={40}
       />
+      <p className={styles.title}>Document Collection</p>
     </nav>
   )
 }

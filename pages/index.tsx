@@ -32,7 +32,7 @@ const Home: NextPage = () => {
   return (
     <>
       <div className={`p-7 md:p-14 mx-auto min-h-screen transition duration-1000 ease-in-out ${showDiv}`} ref={divRef}>
-        <ArticleSection data={ARTICLE_DATA} sectionStyle="grid grid-cols-2 md:grid-cols-3 gap-4 justify-items-center" />
+        <ArticleSection data={ARTICLE_DATA} sectionStyle="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center" />
       </div>
     </>
   )

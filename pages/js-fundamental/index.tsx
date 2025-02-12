@@ -2,10 +2,10 @@ import type { NextPage } from 'next'
 import { useRef, useEffect, useState, useMemo } from 'react'
 
 // components
-import ArticleSection from '../components/organism/articles-section'
-import { ARTICLE_DATA } from '../constants/article'
+import ArticleSection from '../../components/organism/articles-section'
+import { JS_DATA } from '../../constants/article'
 
-const Home: NextPage = () => {
+const JsFund: NextPage = () => {
   const divRef = useRef<any>(null)
   const [current, setCurrent] = useState<boolean>(false)
 
@@ -28,9 +28,9 @@ const Home: NextPage = () => {
 
   return (
     <div className={`p-7 md:p-14 mx-auto min-h-screen transition duration-1000 ease-in-out ${showDiv}`} ref={divRef}>
-      <ArticleSection data={ARTICLE_DATA} sectionStyle="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center" />
+      <ArticleSection data={JS_DATA} sectionStyle="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center" />
     </div>
   )
 }
 
-export default Home
+export default JsFund
